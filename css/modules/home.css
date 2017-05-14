@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+.intro_heading {
+    /*font-family: 'Josefin Slab', serif;*/
+    font-size: 4em;
+    text-align: center;
+    text-transform: uppercase;
+
+    background: -webkit-linear-gradient(#07889B, #66B9BF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro_image {
+    width: 80vw;
+    display: block;
+    margin: 8px auto;
+}
+
+.footer_block {
+    position: fixed;
+    top: 78vh;
+    width: 100vw;
+    text-align: center;
+    transition: all 1s ease-in-out;
+    height: 22vh;
+}
+
+.intro_input {
+    padding: 15px;
+    width: 90vw;
+    display: block;
+    margin: 8px auto;
+    margin-bottom: 0;
+
+    /*position: fixed;
+    top: 90vh;
+    left: 5vw;*/
+
+    border: 1px solid black;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+
+.intro_button {
+    padding: 15px;
+    width: 90vw;
+    display: block;
+    margin: 8px auto;
+    margin-top: 0;
+    display: none;
+    border-radius: 0 0 8px 8px;
+}
+
+/*.intro_geoloc {
+    text-align: center;
+}*/

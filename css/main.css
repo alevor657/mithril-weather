@@ -1,1 +1,26 @@
-@import "";
+/*
+* Typography
+ */
+@import "typography.css";
+
+
+
+/*
+* Animate.css
+ */
+@import "../node_modules/animate.css/animate.min.css";
+
+
+
+/*
+* Other custom styles
+ */
+@import "modules/home.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EDEEF0;
+}

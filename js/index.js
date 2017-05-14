@@ -2,6 +2,9 @@
 
 var m = require('mithril');
 
+var Layout = require('./view/layout');
+var Home = require('./view/home');
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -13,11 +16,15 @@ var app = {
         m.route(document.body, "/", {
             "/": {
                 render: function() {
-                    return m(Layout, m(Home));
+                    return m(Home);
                 }
             },
 
-            // asd
+            "/conditions": {
+                render: function() {
+                    return m(Home);
+                }
+            },
         });
 
 

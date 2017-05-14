@@ -1,16 +1,17 @@
 {
-    "name": "www",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "start": "webpack js/index.js bin/app.js -d"
-    },
-    "keywords": [],
-    "author": "Alexey Vorobyev <alevor657@gmail.com>",
-    "license": "ISC",
-    "dependencies": {
-        "mithril": "^1.1.1",
-        "webpack": "^2.5.1"
-    }
+  "name": "www",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack js/index.js bin/app.js -d"
+  },
+  "keywords": [],
+  "author": "Alexey Vorobyev <alevor657@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "mithril": "^1.1.1",
+    "webpack": "^2.5.1"
+  }
 }

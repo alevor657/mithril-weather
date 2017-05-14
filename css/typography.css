@@ -1,0 +1,12 @@
+/*
+* Importing fonts
+ */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Raleway');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Slab', serif;
+}
+
+p, a, input, button {
+    font-family: 'Raleway', sans-serif;
+}
