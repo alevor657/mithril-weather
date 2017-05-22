@@ -1,0 +1,28 @@
+nav {
+    height: 40px;
+    background-color: #07889B;
+    padding: 10px;
+}
+
+/*.main_logo {
+    display: block;
+}*/
+
+.main_location {
+    display: inline-block;
+    margin: auto 15px;
+}
+
+.main_logo {
+    /*text-decoration: none;*/
+    color: black;
+}
+
+.main_cache {
+    float: right;
+}
+
+.main_toggle_icon {
+    transition: all 2s ease-in-out;
+    color: lightsalmon;
+}

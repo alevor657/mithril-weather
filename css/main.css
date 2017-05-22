@@ -13,9 +13,18 @@
 
 
 /*
+* Animate.css
+ */
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
+
+
+
+/*
 * Other custom styles
  */
+@import "modules/navbar.css";
 @import "modules/home.css";
+@import "modules/conditions.css";
 
 * {
     box-sizing: border-box;

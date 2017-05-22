@@ -4,6 +4,7 @@ var m = require('mithril');
 
 var Layout = require('./view/layout');
 var Home = require('./view/home');
+var Conditions = require('./view/conditions');
 
 var app = {
     // Application Constructor
@@ -12,7 +13,6 @@ var app = {
     },
 
     onDeviceReady: function() {
-
         m.route(document.body, "/", {
             "/": {
                 render: function() {
@@ -22,9 +22,10 @@ var app = {
 
             "/conditions": {
                 render: function() {
-                    return m(Home);
+                    return m(Layout, m(Conditions));
                 }
             },
+
         });
 
 

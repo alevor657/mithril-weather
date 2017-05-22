@@ -9,6 +9,10 @@ body {
     text-transform: uppercase;
 
     background: -webkit-linear-gradient(#07889B, #66B9BF);
+    background: -webkit-gradient(#07889B, #66B9BF);
+    background: -moz-linear-gradient(#07889B, #66B9BF);
+    background: -o-linear-gradient(#07889B, #66B9BF);
+    background: linear-gradient(#07889B, #66B9BF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -20,10 +24,13 @@ body {
 }
 
 .footer_block {
-    position: fixed;
-    top: 78vh;
+    /*position: relative;
+    top: auto;*/
     width: 100vw;
     text-align: center;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
     height: 22vh;
 }
@@ -47,7 +54,6 @@ body {
 .intro_button {
     padding: 15px;
     width: 90vw;
-    display: block;
     margin: 8px auto;
     margin-top: 0;
     display: none;

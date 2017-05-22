@@ -23,9 +23,9 @@ var Autocomplete = {
         })
         .then(function (result) {
             Autocomplete.res = result.predictions;
-            console.log(Autocomplete.res);
-        })
+            // console.log(Autocomplete.res);
+        });
     }
-}
+};
 
 module.exports = Autocomplete;
