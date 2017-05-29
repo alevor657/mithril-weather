@@ -18,6 +18,7 @@ function removeElements() {
         img.style.visibility = "hidden";
         ibutton.style.display = "block";
         fblock.style.transform = "translateY(-" + imgHeight + "px)";
+        window.scrollTo(0, 0);
     });
 }
 

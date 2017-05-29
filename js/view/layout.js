@@ -4,7 +4,7 @@ var m = require('mithril');
 
 
 var Weather = require('../model/weather');
-// var Cache = require('../model/cache');
+var Cache = require('../model/cache');
 
 module.exports = {
     view: function (vnode) {

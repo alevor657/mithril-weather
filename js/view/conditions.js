@@ -45,7 +45,7 @@ module.exports = {
             m('section.weather_details', [
                 m('span.weather_feelslike', m.trust("Feels like " + Weather.res.feelslike_c + "&#8451;")),
                 m('p.weather_humidity', "Humidity: " + Weather.res.relative_humidity),
-                m('p.weather_wind', "Wind: " + Weather.res.wind_str),
+                // m('p.weather_wind', "Wind: " + Weather.res.wind_str),
                 m('p.weather_visibility', "Visibility: " + Weather.res.visibility_km + " km"),
             ]),
 
